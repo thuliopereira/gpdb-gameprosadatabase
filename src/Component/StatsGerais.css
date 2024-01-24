@@ -1,0 +1,14 @@
+.Stats-container{
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+
+.h222{
+    text-align: center;
+}
+
+.sub-texto{
+    font-size: 12px;
+    padding-left: 60px;
+}

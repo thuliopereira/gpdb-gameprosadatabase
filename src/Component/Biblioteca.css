@@ -1,0 +1,148 @@
+.container{
+    color: black;
+    padding: 10px;
+}
+
+.grade{
+    display: flex;
+    box-shadow: 4px 4px 4px;
+}
+
+.video{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0px;
+    flex: 1;
+    max-height: 800px;
+    background-color: black;
+}
+
+.video:hover{
+    background-color: rgba(240, 248, 255, 0.921);
+    transition: 1s;
+}
+
+.nome{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.link{
+    color: white;
+}
+
+.video-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.video-topo-adrena{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    color: aliceblue;
+}
+
+.video-topo-twitch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: purple;
+    color: aliceblue;
+}
+
+.video-baixo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.video-baixo-adrena{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    color: aliceblue;
+}
+
+.Tag-Sem-Tema{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    color: aliceblue;
+}
+
+.video-baixo-twitch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: purple;
+    color: aliceblue;
+}
+
+.video-obs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.video-obs-adrena{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    color: aliceblue;
+}
+
+.video-obs-twitch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: purple;
+    color: aliceblue;
+}
+
+.botoes-filtro{
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:13px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.botoes-filtro:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.botoes-filtro:active {
+	position:relative;
+	top:1px;
+}
